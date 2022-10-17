@@ -6,10 +6,13 @@ This homework is about white box testing. Precisely it's control flow testing.
 ### File structure
 
 1. sumOdd.cpp : contains the "sumOdd" function, which needs to be tested.
-Control flow: if (firstNum is even) -> if (secondNum is even) -> return 0
-                                      else `-> return secondNum
-              else `-> if (secondNum is even) -> return firstNum
-                       else `-> return firstNum + secondNum
+Control flow:
+- if (firstNum is even)
+  - if (secondNum is even) -> return 0
+  - else -> return secondNum
+- else
+  - if (secondNum is even) -> return firstNum
+  - else -> return firstNum + secondNum
 
 2. ControlFlow.cpp: contains the tests using the control flow testing method.
 - 1st test: firstNum is even, secondNum is even
@@ -31,10 +34,13 @@ Bài tập này làm về kiểm thử hộp trắng, cụ thể là kiểm th�
 ### Cấu trúc thư mục
 
 1. sumOdd.cpp : chứa hàm "sumOdd" cần được kiểm thử.
-Luồng điều khiển: if (firstNum is even) -> if (secondNum is even) -> return 0
-                                           else `-> return secondNum
-                  else `-> if (secondNum is even) -> return firstNum
-                           else `-> return firstNum + secondNum
+Luồng điều khiển:
+- if (firstNum is even)
+  - -> if (secondNum is even) -> return 0
+  - else -> return secondNum
+- else 
+  - if (secondNum is even) -> return firstNum
+  - else -> return firstNum + secondNum
 2. ControlFlowcpp: chứa các ca kiểm thử sử dụng phương pháp kiểm thử luồng điều khiển
 - Test 1: firstNum chẵn, secondNum chẵn
 - Test 2: firstNum chẵn, secondNum lẻ
